@@ -1,0 +1,15 @@
+first we use 
+1=> git init
+2=> git add index.html (for single file addition in git)
+3=> git add . ( for all files adding in the git )
+4=> git commit (to commit the file/s in the git)
+	(there we can also use the 2nd method of commiting the file/folder)
+   i.e. git commit -m 'another way of committing' 
+ 
+5=> create .gitignore file and add the path of that file which we don't want to add in our git project.
+6=> can also add the complete folder into .gitignore repositry
+
+USER NAME
+Hammad Zia
+Email
+hammadzia234@gmail.com
