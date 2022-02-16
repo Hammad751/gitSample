@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display properties</title>
+    <style>
+        body{
+            /* we have to use the box sizing property to display the boxes in better way. */
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .boxes{
+            border: 2px solid red;
+            background-color: rgb(214, 183, 161);
+        }
+        .box{
+            border: 2px solid salmon;
+            margin: 6px ;
+            padding: 20px ;
+            /* when we use inline property this will change the display and we can not change  te property of element. */
+            /* and also when we use the block property we change the width of element but that element contains the whole block. it means no other element can take that place */
+            /* but when we use the inline-block property, we can change the width of element and this will not take the whole block*/
+            display: inline-block;
+            /* now we add the width property to inline these boxes */
+            width: 25%;
+            text-align: justify;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>we using smartgit for our projects.</h1>
+    <div class="boxes">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vitae, velit quis, iste placeat mollitia illum ipsam inventore laudantium architecto culpa eaque tenetur? Fugit mollitia a veritatis rerum quia modi!</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vitae, velit quis, iste placeat mollitia illum ipsam inventore laudantium architecto culpa eaque tenetur? Fugit mollitia a veritatis rerum quia modi!</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vitae, velit quis, iste placeat mollitia illum ipsam inventore laudantium architecto culpa eaque tenetur? Fugit mollitia a veritatis rerum quia modi!</div>
+    </div>
+</body>
+</html>

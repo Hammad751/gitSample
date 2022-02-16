@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position property</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            border: 2px solid rgb(42, 66, 1);
+            margin: 5px;
+            padding: 5px;
+        }
+        .box{
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            background-color: rgb(180, 138, 84);
+            margin: 3px;
+        }
+
+        /* Position relative meanes our element will move from its relative position  */
+        /* while the absolute property will change the element according to its parent element */
+        #box3{
+            /* position: relative;
+            left: 12%; */
+            position: absolute;
+            left: 23%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>
